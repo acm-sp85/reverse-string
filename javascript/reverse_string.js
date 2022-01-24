@@ -1,5 +1,8 @@
 function reverseString(str) {
-  // type your code here
+  const str_split = str.split("");
+  const reversed = str_split.reverse();
+  const reversed_joint = reversed.join("");
+  return reversed_joint;
 }
 
 if (require.main === module) {
